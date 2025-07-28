@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect} from "react";
 import Snippet from "../partials/Snippet.jsx";
 import Message from "../partials/Message.jsx";
-import codeSnippets from "../../code_snippets.js";
+import codeSnippets from "../../pages/code_snippets.js";
 
 function Game() {
     const inputRef = useRef(null);

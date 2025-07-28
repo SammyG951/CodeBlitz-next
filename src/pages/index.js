@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Welcome from "./components/Welcome.jsx";
-import Game from "./components/Game.jsx";
-import Footer from "./components/Footer.jsx"; 
+import Welcome from "../components/partials/Welcome";
+import Game from "../components/partials/Game.jsx";
+import Footer from "../components/partials/Footer.jsx"; 
 
 export default function Home(){
     return (
